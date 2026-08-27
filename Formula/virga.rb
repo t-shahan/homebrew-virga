@@ -3,26 +3,25 @@
 class Virga < Formula
   desc "Responsive terminal weather app with an hourly precipitation chart"
   homepage "https://github.com/t-shahan/virga"
-  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/t-shahan/virga/releases/download/v0.2.0/virga-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8c14f78f4dfc8106a2494e5f38098056bb998b3e4af264a6a680f9d1fe38af20"
+      sha256 "d7cdbfc7db239535a542162a8f67f02187a572d9ff22366038a0f1876a70a96c"
     else
       url "https://github.com/t-shahan/virga/releases/download/v0.2.0/virga-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5eb524fed53d7ee5f664bda295f33afa69c4e5e06dca943dbc4904e9362143cc"
+      sha256 "2dbdce6c73b487d212052982b1f82253996ad40282cda2ac866a1dc37363a903"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/t-shahan/virga/releases/download/v0.2.0/virga-0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "42fa8d735600a76861235ba3285c7f5098a55ce7d8cc4e857cf0e1cef18817b9"
+      sha256 "a49804e257406c49f764b72c7579364d1949fb84f1ac133f18fff16a5cd0072f"
     else
       url "https://github.com/t-shahan/virga/releases/download/v0.2.0/virga-0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "09dab38bb4713dd0a1d96927645363b26c6492f8873cf2bceedc033bb0ece5fc"
+      sha256 "d7c428e1a2e4ca89a5d3627c341bae8dae5dfbc4c5304c0b72466204648bf5be"
     end
   end
 
