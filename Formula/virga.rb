@@ -7,21 +7,21 @@ class Virga < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/t-shahan/virga/releases/download/v0.7.1/virga-0.7.1-aarch64-apple-darwin.tar.gz"
-      sha256 "b6748e0a3aacde077c7db2c059d3f8d6e08c4d0bdfcf40362ad4c40e9374f002"
+      url "https://github.com/t-shahan/virga/releases/download/v0.8.0/virga-0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b3574479b5a01f3f99b636ba934677e5b4db3157827fed224bf147b9b3265c40"
     else
-      url "https://github.com/t-shahan/virga/releases/download/v0.7.1/virga-0.7.1-x86_64-apple-darwin.tar.gz"
-      sha256 "8ca746f64aa86eabe8f97f476272be1699f0898aac15e89c8698964626b59c08"
+      url "https://github.com/t-shahan/virga/releases/download/v0.8.0/virga-0.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "87ec6e352f60bd77373442437e64285fdac68aa8791e15bd33fb63f71240c64d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/t-shahan/virga/releases/download/v0.7.1/virga-0.7.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7038c94e928b56960c51a8db115dd8909613c5453ce0a6785e34c105fd51d783"
+      url "https://github.com/t-shahan/virga/releases/download/v0.8.0/virga-0.8.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f24a51962d398727179709603164d88b619619473706fb690a62c87b92e28d37"
     else
-      url "https://github.com/t-shahan/virga/releases/download/v0.7.1/virga-0.7.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2040c42d74ae717143065d709648d151b434479e276ab9f3fac6145e0851b0a6"
+      url "https://github.com/t-shahan/virga/releases/download/v0.8.0/virga-0.8.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "cdc92a538cc2c2cffd768707f4266a2cc12fbfbec4d929ddb457ce26875d627c"
     end
   end
 
